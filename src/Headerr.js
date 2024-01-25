@@ -14,7 +14,7 @@ export default function Headerr() {
         </div>
         <div className='col-md-4 header-btn' >
             <button className='btn-button'>Login</button>
-            <button>Sign Up</button>
+            <button className='btnn-button '>Sign Up</button>
         </div>
     </div>
   )

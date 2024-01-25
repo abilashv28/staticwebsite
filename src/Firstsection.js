@@ -16,7 +16,7 @@ export default function
 
                 </div>
             </div>
-            <div className='row'>
+            <div className='row' style={{padding: "20px 0px"}}>
                 <div className='col-md-2 '></div>
                 <div className='col-md-2 alignment2'>
                     <h2>23+</h2>

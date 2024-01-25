@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>
+    <div className='footer' style={{background: "navy"}}>
         <div className='row'>
             <div className='col-md-3'>
                 <h3>Rioflin Assets</h3>
@@ -26,11 +26,15 @@ export default function Footer() {
             </div>
             <div className='col-md-3'>
                 <h4>Join Our NewsLetter</h4>
-                <input/>
-                <button>Subscribe</button>
+                <div className='alignment8'>
+                <input className='form-control' placeholder='your email address'/>
+                <button className='btn-button'>Subscribe</button>
+                </div>
             </div>
 
         </div>
+        <hr></hr>
+        <h5 style={{textAlign: "center"}}>copyrights @ Rioflin Assests 2023.All Rights Reserved</h5>
     </div>
   )
 }

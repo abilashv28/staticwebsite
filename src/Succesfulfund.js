@@ -1,4 +1,5 @@
 import React from 'react'
+import successimage from '../src/assets/logo192.png'
 
 export default function Succesfulfund() {
     return (
@@ -6,21 +7,21 @@ export default function Succesfulfund() {
             <div><h1 style={{ textAlign: 'center' }}>Succesfully Funded</h1></div>
             <div className='row'>
                 <div className='col-md-4'>
-                    <image />
+                  <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
                     <a>4.5crore</a>
                 </div>
                 <div className='col-md-4'>
-                    <image />
+                <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
                     <a>4.5crore</a>
                 </div>
                 <div className='col-md-4'>
-                    <image />
+                <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
@@ -43,7 +44,7 @@ export default function Succesfulfund() {
             </div>
             <hr></hr>
             <div>
-                <button>Trust is earned</button>
+                <button className='btnn-button'>Trust is earned</button>
             </div>
         </div>
     )

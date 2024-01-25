@@ -1,8 +1,10 @@
 import React from 'react'
+import successimage from './assets/logo192.png'
 
 export default function Investor() {
   return (
     <div>
+        <div style={{background:'blue',padding: "60px 30px"}}>
         <div><h1 style={{textAlign:'center'}}>Investor's Academy</h1></div>
         <div className='row'>
             <div className='col-md-6'></div>
@@ -10,28 +12,34 @@ export default function Investor() {
         </div>
         <div className='row'>
             <div className='col-md-6'>
-                <div>
-                    <image/>
+                <div className='investor-card alignment10'>
+                <div><img src={successimage} alt="Success Image" /></div>
                     <label>At Rioflin</label>
                     <h3>Our Selection Process At Rioflin Looks Like...</h3>
                     <button className='btn-button'>Read More</button>
                 </div>
             </div>
             <div className='col-md-6'>
-            <div>
-                    <image/>
-                    <label>At Rioflin</label>
+            <div className='investor-card'>
+                <div className='alignment9'>
+                <div><img src={successimage} alt="Success Image" /></div>
+                    <div><label>At Rioflin</label>
                     <h3>Our Selection Process At Rioflin Looks Like...</h3>
-                    <button className='btn-button'>Read More</button>
+                    <button className='btn-button'>Read More</button></div>
+                </div>   
                 </div>
-                <div>
-                    <image/>
-                    <label>At Rioflin</label>
+                <div className='investor-card' style={{marginTop: "10%"}}>
+                <div className='alignment9'>
+                <div><img src={successimage} alt="Success Image" /></div>
+                    <div><label>At Rioflin</label>
                     <h3>Our Selection Process At Rioflin Looks Like...</h3>
-                    <button className='btn-button'>Read More</button>
+                    <button className='btn-button'>Read More</button></div>
+                </div>   
                 </div>
+                
             </div>
 
+        </div>
         </div>
         <div className='row alignment6' style={{background:'black',height: '400px'}}>
             <div className='col-md-2'></div>
