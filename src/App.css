@@ -32,7 +32,113 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  background: #000000;
+  padding: 20px;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-btn {
+  display: flex;
+  gap: 8%;
+  justify-content: center;
+}
+
+.first-image {
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cards {
+  height: 250px;
+  background: white;
+  margin-left: 50px;
+  box-shadow: 20px 20px;
+  border-radius: 15px;
+}
+
+.alignment {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border: 2px solid;
+  height: 50px;
+  align-items: center;
+}
+
+.btn-button {
+  border: none;
+  padding: 10px 30px;
+  background: green;
+  border-radius: 5px;
+}
+
+.alignment2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alignment3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.alignment4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.alignment5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.rounded-div {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  /* Adjust the font size as needed */
+  color: blue;
+  /* Set the text color */
+}
+
+.fourthsection {
+  color: white;
+}
+
+.portfolio {
+  background: blue;
+  box-shadow: 20px 20px;
+}
+
+.alignment6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
