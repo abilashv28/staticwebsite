@@ -13,7 +13,7 @@ export default function Fourthsection() {
             </div>
             <div className='row alignment5' style={{ padding: '0px 20px' }}>
                 <div className='col-md-4'>
-                    <div className='row'>
+                    <div className='row alignment11'>
                         <div >
                             <div className='alignment7'> <div className='rounded-div'>1</div><h4>Create Account</h4></div>
                             <p>Create an account by clicking the signup Enter yout KYC details</p>
