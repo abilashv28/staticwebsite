@@ -15,22 +15,22 @@ export default function Secondsection() {
             </div>
             <div className='row'>
                 <div className='col-md-3 cards'>
-                    <CheckCircleRoundedIcon />
+                    <div><CheckCircleRoundedIcon /></div>
                     <h4>Poineers in Alternative Investment</h4>
-                    <p>The Process of managing a task throught its lifecycle</p>
+                    <p>The process of managing a task through its life cycle. It involves planning, testing, tracking.</p>
                     <CheckCircleRoundedIcon />
                 </div>
                 <div className='col-md-3 cards'>
                     <CheckCircleRoundedIcon />
                     <h4>Poineers in Alternative Investment</h4>
-                    <p>The Process of managing a task throught its lifecycle</p>
+                    <p>The process of managing a task through its life cycle. It involves planning, testing, tracking.</p>
                     <CheckCircleRoundedIcon />
 
                 </div>
                 <div className='col-md-3 cards'>
                     <CheckCircleRoundedIcon />
                     <h4>Poineers in Alternative Investment</h4>
-                    <p>The Process of managing a task throught its lifecycle</p>
+                    <p>The process of managing a task through its life cycle. It involves planning, testing, tracking.</p>
                     <CheckCircleRoundedIcon />
                 </div>
             </div>

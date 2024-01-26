@@ -70,9 +70,17 @@
 .cards {
   height: 250px;
   background: white;
-  margin-left: 50px;
+  margin-left: 80px;
   box-shadow: 10px 10px;
   border-radius: 15px;
+  display: flex;
+  padding: 20px 80px;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .alignment {
@@ -135,7 +143,7 @@
 }
 
 .portfolio {
-  background:linear-gradient(to bottom, #2169FB, #183BE1);
+  background: linear-gradient(to bottom, #2169FB, #183BE1);
   box-shadow: 10px 10px white;
   padding: 40px;
   border-radius: 20px;
@@ -206,11 +214,25 @@
   gap: 50px;
 
 }
-.alignment12{
+
+.alignment12 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.investor{
-  background:linear-gradient(to bottom, #2169FB, #183BE1);
+
+.investor {
+  background: linear-gradient(to bottom, #2169FB, #183BE1);
+}
+
+.fourthsection p {
+  padding: 0px 150px 0px 40px;
+}
+
+.thunder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }

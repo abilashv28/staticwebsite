@@ -27,7 +27,7 @@ export default function Footer() {
             <div className='col-md-3'>
                 <h4>Join Our NewsLetter</h4>
                 <div className='alignment8'>
-                <input className='form-control' placeholder='your email address'/>
+                <input className='form-control' placeholder='your email address' style={{padding: '20px'}}/>
                 <button className='btn-button'>Subscribe</button>
                 </div>
             </div>
