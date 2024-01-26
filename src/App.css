@@ -82,6 +82,23 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.cardss {
+  height: 350px;
+  background: white;
+  margin-left: 80px;
+  box-shadow: 10px 10px white;
+  border-radius: 15px;
+  display: flex;
+  padding: 20px 80px;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom, #2169FB, #183BE1);
+  
+}
 
 .alignment {
   display: flex;
@@ -176,7 +193,7 @@
 
 .footer {
   color: white;
-  padding: 0px 20px;
+  padding: 0px 85px;
 }
 
 .footer a {
@@ -235,4 +252,24 @@
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
+}
+
+.investnow {
+  width: 100%;
+  background: transparent;
+  color: white;
+  border: 1px solid #00FF01;
+  border-radius: 10px;
+}
+
+.talktous {
+  width: 100%;
+  border-radius: 10px;
+  background: #00FF01;
+  border: none;
+}
+
+hr{
+  background: #00FF01;
+  height: 2px;
 }

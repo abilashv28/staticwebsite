@@ -9,7 +9,7 @@ export default function Secondsection() {
                 <div className='row'>
                     <div className='col-md-6'></div>
                     <div className='col-md-6'>
-                        <hr style={{ color: '10px solid black' }}></hr>
+                        <hr></hr>
                     </div>
                 </div>
             </div>

@@ -7,21 +7,21 @@ export default function Succesfulfund() {
             <div><h1 style={{ textAlign: 'center' }}>Succesfully Funded</h1></div>
             <div className='row'>
                 <div className='col-md-4 alignment2'>
-                  <div><img src={successimage} alt="Success Image" /></div>
+                    <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
                     <a>4.5crore</a>
                 </div>
                 <div className='col-md-4 alignment2'>
-                <div><img src={successimage} alt="Success Image" /></div>
+                    <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
                     <a>4.5crore</a>
                 </div>
                 <div className='col-md-4 alignment2'>
-                <div><img src={successimage} alt="Success Image" /></div>
+                    <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
@@ -31,7 +31,7 @@ export default function Succesfulfund() {
             <div className='row'>
                 <div className='col-md-1'></div>
                 <div className='col-md-3'>
-                    <image/>
+                    <image />
                     <h5>Kalpesh Chauhan</h5>
                     <h6>Roflin assest customer</h6>
                 </div>
@@ -45,6 +45,66 @@ export default function Succesfulfund() {
             <hr></hr>
             <div>
                 <button className='btnn-button'>Trust is earned</button>
+            </div>
+            <div className='row'>
+                <div className='col-md-4'>
+                    <h1>
+                        Our Happy Clients About Roflin Assets
+                    </h1>
+                    <hr></hr>
+                </div>
+                <div className='col-md-4'></div>
+                <div className='col-md-4'>
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-3 cardss'>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
+                    </div>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <img/>
+                        </div>
+                        <div className='col-md-6'>
+                            <h3>Mahesh</h3>
+                            <h5>CEO</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className='col-md-3 cardss'>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
+                    </div>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <img/>
+                        </div>
+                        <div className='col-md-6'>
+                            <h3>Mahesh</h3>
+                            <h5>CEO</h5>
+                        </div>
+                    </div>
+                    
+                </div> <div className='col-md-3 cardss'>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
+                    </div>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <img/>
+                        </div>
+                        <div className='col-md-6'>
+                            <h3>Mahesh</h3>
+                            <h5>CEO</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+                
             </div>
         </div>
     )

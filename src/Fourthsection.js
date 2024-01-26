@@ -4,13 +4,16 @@ export default function Fourthsection() {
     return (
         <div className='fourthsection investor' style={{padding: '0px 20px' }}>
             <div className='row alignment4'>
-                <div className='col-md-4'><h1>How to Invest in Rioflin Assests</h1></div>
+                <div className='col-md-4'><h1>How to Invest in Rioflin Assests</h1>
+                <hr></hr>
+                </div>
                 <div className='col-md-5'></div>
                 <div className='col-md-3'>
                     <button className='btn-button'>Get Started now</button>
                 </div>
 
             </div>
+            
             <div className='row alignment5' style={{ padding: '0px 20px' }}>
                 <div className='col-md-4'>
                     <div className='row alignment11'>
