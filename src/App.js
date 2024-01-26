@@ -11,6 +11,8 @@ import Succesfulfund from './Succesfulfund';
 import Investor from './Investor';
 import Currentprojects from './Currentprojects';
 import Footer from './Footer';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (

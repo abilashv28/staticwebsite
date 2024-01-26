@@ -99,7 +99,6 @@
   background: linear-gradient(to bottom, #2169FB, #183BE1);
   
 }
-
 .alignment {
   display: flex;
   flex-wrap: nowrap;
@@ -272,4 +271,10 @@
 hr{
   background: #00FF01;
   height: 2px;
+}
+.carousel{
+  color: white;
+}
+.design{
+  box-shadow: 10px 10px #206DFB;
 }

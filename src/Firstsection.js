@@ -7,9 +7,8 @@ export default function
             <div className='row' style={{ height: '400px', background: '#000' }}>
                 <div className='col-md-4 first-image'>
                     <label style={{ color: '#00FF01' }}>Welcome the future Awaits You</label>
-                    <h3 style={{ color: 'white' }}>Invest Beyond</h3>
-                    <h1 className="display-1" style={{ color: 'purple' }}>BONDS</h1>
-
+                    <h3 className="display-2" style={{ color: 'white' }}>Invest Beyond</h3>
+                    <h1 className="display-1" style={{ color: 'purple',fontWeight:'800' }}>BONDS</h1>
                     <p style={{ color: 'white' }}>Embark On A Journey Into Alternative Investment With Returns Starting From 18%</p>
                     <button className='btn-button '>Explore Opportunities</button>
                 </div>
