@@ -16,7 +16,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="">
       <Headerr/>
       <Firstsection/>
       <Secondsection/>
@@ -28,7 +28,6 @@ function App() {
       <Succesfulfund/>
       <Investor/>
       <Footer/>
-
     </div>
   );
 }
