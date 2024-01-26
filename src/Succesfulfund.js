@@ -6,21 +6,21 @@ export default function Succesfulfund() {
         <div>
             <div><h1 style={{ textAlign: 'center' }}>Succesfully Funded</h1></div>
             <div className='row'>
-                <div className='col-md-4'>
+                <div className='col-md-4 alignment2'>
                   <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
                     <a>4.5crore</a>
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 alignment2'>
                 <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
                     <a>4.5crore</a>
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 alignment2'>
                 <div><img src={successimage} alt="Success Image" /></div>
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>

@@ -9,6 +9,7 @@ import Founders from './Founders';
 import Mapsection from './Mapsection';
 import Succesfulfund from './Succesfulfund';
 import Investor from './Investor';
+import Currentprojects from './Currentprojects';
 import Footer from './Footer';
 
 function App() {
@@ -17,8 +18,10 @@ function App() {
       <Headerr/>
       <Firstsection/>
       <Secondsection/>
+      <Currentprojects/>
       <Thirdsection/>
       <Fourthsection/>
+      <Founders/>
       <Mapsection/>
       <Succesfulfund/>
       <Investor/>

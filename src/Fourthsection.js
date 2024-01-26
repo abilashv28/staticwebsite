@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Fourthsection() {
     return (
-        <div className='fourthsection' style={{ background: 'blue', padding: '0px 20px' }}>
+        <div className='fourthsection investor' style={{padding: '0px 20px' }}>
             <div className='row alignment4'>
                 <div className='col-md-4'><h1>How to Invest in Rioflin Assests</h1></div>
                 <div className='col-md-5'></div>

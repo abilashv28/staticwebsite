@@ -10,7 +10,7 @@ export default function () {
 
             <div className='row'>
                 <div className='col-md-2'></div>
-                <div className='col-md-8' style={{ background: 'white',borderRadius: '10px',boxShadow: '20px 20px darkblue'}}>
+                <div className='col-md-8' style={{ background: 'white',borderRadius: '10px',boxShadow: '10px 10px #3D5FFE'}}>
                     <div className='row' style={{padding:'25px 20px'}}>
                         <div className='col-md-3'></div>
                         <div className='col-md-6 alignment' >

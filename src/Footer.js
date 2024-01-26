@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='footer' style={{background: "navy"}}>
+    <div className='footer' style={{background: "#04003D"}}>
         <div className='row'>
             <div className='col-md-3'>
                 <h3>Rioflin Assets</h3>

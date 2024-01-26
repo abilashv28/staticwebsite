@@ -1,4 +1,5 @@
 import React from 'react'
+import successimage from '../src/assets/logo192.png'
 
 export default function () {
   return (
@@ -7,20 +8,20 @@ export default function () {
             <h1 style={{textAlign: 'center'}}>Meet Our Founders</h1>
         </div>
         <div className='row'>
-            <div className='col-md-4'>
-                <image/>
-                <h6>VENKATESAN</h6>
-                <h6>coo</h6>
+            <div className='col-md-4 alignment2'>
+                <img src={successimage} alt="Success Image" />
+                <h4>VENKATESAN</h4>
+                <h4>coo</h4>
             </div>
-            <div className='col-md-4'>
-            <image/>
-                <h6>VENKATESAN</h6>
-                <h6>coo</h6>
+            <div className='col-md-4 alignment2'>
+            <img src={successimage} alt="Success Image" />
+                <h4>VENKATESAN</h4>
+                <h4>coo</h4>
             </div>
-            <div className='col-md-4'>
-            <image/>
-                <h6>VENKATESAN</h6>
-                <h6>coo</h6>
+            <div className='col-md-4 alignment2'>
+            <img src={successimage} alt="Success Image" />
+                <h4>VENKATESAN</h4>
+                <h4>coo</h4>
             </div>
 
         </div>

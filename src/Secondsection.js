@@ -1,11 +1,11 @@
 import React from 'react'
-import CheckIcon from '@mui/icons-material/Check';
+import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 export default function Secondsection() {
     return (
-        <div style={{background:'blue', height: '400px'}}>
+        <div className='investor' style={{  height: '400px' }}>
             <div className='alignment2'>
-                <h1 style={{color:'white'}}>What Is RIOFIN ASSESTS ?</h1>
+                <h1 style={{ color: 'white' }}>What Is RIOFIN ASSESTS ?</h1>
                 <div className='row'>
                     <div className='col-md-6'></div>
                     <div className='col-md-6'>
@@ -15,21 +15,24 @@ export default function Secondsection() {
             </div>
             <div className='row'>
                 <div className='col-md-3 cards'>
-                    <image/>
+                    <CheckCircleRoundedIcon />
                     <h4>Poineers in Alternative Investment</h4>
                     <p>The Process of managing a task throught its lifecycle</p>
+                    <CheckCircleRoundedIcon />
                 </div>
                 <div className='col-md-3 cards'>
-                <image/>
+                    <CheckCircleRoundedIcon />
                     <h4>Poineers in Alternative Investment</h4>
                     <p>The Process of managing a task throught its lifecycle</p>
-                </div>
-                <div className='col-md-3 cards'>
-                <image/>
-                    <h4>Poineers in Alternative Investment</h4>
-                    <p>The Process of managing a task throught its lifecycle</p>
-                </div>
+                    <CheckCircleRoundedIcon />
 
+                </div>
+                <div className='col-md-3 cards'>
+                    <CheckCircleRoundedIcon />
+                    <h4>Poineers in Alternative Investment</h4>
+                    <p>The Process of managing a task throught its lifecycle</p>
+                    <CheckCircleRoundedIcon />
+                </div>
             </div>
         </div>
     )

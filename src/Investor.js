@@ -4,8 +4,8 @@ import successimage from './assets/logo192.png'
 export default function Investor() {
   return (
     <div>
-        <div style={{background:'blue',padding: "60px 30px"}}>
-        <div><h1 style={{textAlign:'center'}}>Investor's Academy</h1></div>
+        <div className='investor' style={{padding: "60px 30px"}}>
+        <div><h1 style={{textAlign:'center',color: 'white'}}>Investor's Academy</h1></div>
         <div className='row'>
             <div className='col-md-6'></div>
             <div className='col-md-6'><hr></hr></div>
