@@ -35,47 +35,58 @@ export default function Currentprojects() {
                 <div className='col-md-8 alignment12 carousel'>
                     <Swiper
                         slidesPerView={2}
-                        spaceBetween={30}
+                        spaceBetween={100}
                         pagination={{
                             clickable: true,
                         }}
                         modules={[Pagination]}
                         className="mySwiper"
                     >
-                        <SwiperSlide><div className='row design'>
-                            <div className='col-md-4'></div>
-                            <div className='col-md-8' style={{ background: 'black' }}>
+                        <SwiperSlide style={{height:'460px'}}
+                        ><div className='row design'>
+                            <div className='col-md-4 cardadjustment'></div>
+                            <div className='col-md-8 cardadjustment' style={{padding: '60px 30px'}}>
                                 <label>Real estate</label>
                                 <h3>CRE-||</h3>
                                 <h4>Mappedu</h4>
                                 <p>An extensive network of investors spread throughout the country, encompassing diverse regions and markets</p>
+                                <br></br>
                                 <div><button className='investnow'>INVEST NOW</button></div>
+                                <br></br>
+                                <br></br>
                                 <div><button className='talktous'>TALK TO US</button></div>
                             </div>
                         </div></SwiperSlide>
-                        <SwiperSlide><div className='row design'>
-                            <div className='col-md-4'></div>
-                            <div className='col-md-8' style={{ background: 'black' }}>
+                        <SwiperSlide style={{height:'460px'}}
+                        ><div className='row design'>
+                            <div className='col-md-4 cardadjustment'></div>
+                            <div className='col-md-8 cardadjustment' style={{padding: '60px 30px'}}>
                                 <label>Real estate</label>
                                 <h3>CRE-||</h3>
                                 <h4>Mappedu</h4>
                                 <p>An extensive network of investors spread throughout the country, encompassing diverse regions and markets</p>
+                                <br></br>
                                 <div><button className='investnow'>INVEST NOW</button></div>
+                                <br></br>
+                                <br></br>
                                 <div><button className='talktous'>TALK TO US</button></div>
                             </div>
                         </div></SwiperSlide>
-                        <SwiperSlide>
-                            <div className='row design'>
-                                <div className='col-md-4'></div>
-                                <div className='col-md-8' style={{ background: 'black' }}>
-                                    <label>Real estate</label>
-                                    <h3>CRE-||</h3>
-                                    <h4>Mappedu</h4>
-                                    <p>An extensive network of investors spread throughout the country, encompassing diverse regions and markets</p>
-                                    <div><button className='investnow'>INVEST NOW</button></div>
-                                    <div><button className='talktous'>TALK TO US</button></div>
-                                </div>
-                            </div></SwiperSlide>
+                        <SwiperSlide style={{height:'460px'}}
+                        ><div className='row design'>
+                            <div className='col-md-4 cardadjustment'></div>
+                            <div className='col-md-8 cardadjustment' style={{padding: '60px 30px'}}>
+                                <label>Real estate</label>
+                                <h3>CRE-||</h3>
+                                <h4>Mappedu</h4>
+                                <p>An extensive network of investors spread throughout the country, encompassing diverse regions and markets</p>
+                                <br></br>
+                                <div><button className='investnow'>INVEST NOW</button></div>
+                                <br></br>
+                                <br></br>
+                                <div><button className='talktous'>TALK TO US</button></div>
+                            </div>
+                        </div></SwiperSlide>
                     </Swiper>
                 </div>
 

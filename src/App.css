@@ -288,11 +288,12 @@ hr {
 
 .design {
   box-shadow: 10px 10px #206DFB;
+  height: 450px;
 }
 
 .successsection {
   background: black;
-  height: 700px;
+  height: 750px;
   padding: 30px;
   color: white;
 }
@@ -316,4 +317,16 @@ hr {
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
+}
+img.rounded {
+  border-radius: 50%;
+}
+.alignment20{
+  display: flex;
+  flex-direction: column;
+  
+}
+.cardadjustment{
+  background: black;
+  height:450px
 }

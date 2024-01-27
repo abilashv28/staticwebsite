@@ -15,17 +15,17 @@ export default function Founders() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-md-4 alignment2'>
-                    <div><img src={successimage} alt="Success" /></div>
+                <div className='col-md-3 alignment2' style={{marginLeft:'5%'}}>
+                    <div><img className='rounded' src={successimage} alt="Success" /></div>
                     <h4>VENKATESAN</h4>
                     <h4>coo</h4>
                 </div>
-                <div className='col-md-4 alignment2'>
+                <div className='col-md-3 alignment2' style={{marginLeft:'5%'}}>
                     <img src={successimage} alt="Success" />
                     <h4>VENKATESAN</h4>
                     <h4>coo</h4>
                 </div>
-                <div className='col-md-4 alignment2'>
+                <div className='col-md-3 alignment2' style={{marginLeft:'5%'}}>
                     <img src={successimage} alt="Success" />
                     <h4>VENKATESAN</h4>
                     <h4>coo</h4>

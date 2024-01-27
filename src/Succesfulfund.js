@@ -1,3 +1,4 @@
+import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import successimage from '../src/assets/logo192.png'
 import React from 'react'
 
@@ -53,7 +54,18 @@ export default function Succesfulfund() {
                     </div>
                     <div className='col-md-2'></div>
                     <div className='col-md-5'>
-                        <label>I have invested more than 35 lakhs with riofin assets in all their assets, They provide on time returns. I have been with them over a year now.</label>
+                        <div className='row alignment20'>
+                            <div>
+                                <FormatQuoteIcon/>
+                            </div>
+                            <div >
+                            <label>I have invested more than 35 lakhs with riofin assets in all their assets, They provide on time returns. I have been with them over a year now.</label>
+                            </div>
+                            <div >
+                            <FormatQuoteIcon style={{float:'right'}}/>
+                            </div>
+
+                        </div>
                     </div>
                     <div className='col-md-1'></div>
 
@@ -85,7 +97,7 @@ export default function Succesfulfund() {
                         modules={[Pagination]}
                         className="mySwiper"
                     >
-                        <SwiperSlide> <div className='col-md-3 cardss'>
+                        <SwiperSlide style={{height:'360px'}}> <div className='col-md-3 cardss'>
                             <div>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
                             </div>
@@ -101,7 +113,7 @@ export default function Succesfulfund() {
 
                         </div>
                         </SwiperSlide>
-                        <SwiperSlide> <div className='col-md-3 cardss'>
+                        <SwiperSlide style={{height:'360px'}}> <div className='col-md-3 cardss'>
                             <div>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
                             </div>
@@ -116,7 +128,7 @@ export default function Succesfulfund() {
                             </div>
 
                         </div></SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide style={{height:'360px'}}>
                             <div className='col-md-3 cardss'>
                                 <div>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
@@ -132,7 +144,7 @@ export default function Succesfulfund() {
                                 </div>
 
                             </div></SwiperSlide>
-                            <SwiperSlide>
+                            <SwiperSlide style={{height:'360px'}}>
                             <div className='col-md-3 cardss'>
                                 <div>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
@@ -148,7 +160,7 @@ export default function Succesfulfund() {
                                 </div>
 
                             </div></SwiperSlide>
-                            <SwiperSlide>
+                            <SwiperSlide style={{height:'360px'}}>
                             <div className='col-md-3 cardss'>
                                 <div>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
@@ -164,7 +176,7 @@ export default function Succesfulfund() {
                                 </div>
 
                             </div></SwiperSlide>
-                            <SwiperSlide>
+                            <SwiperSlide style={{height:'360px'}}>
                             <div className='col-md-3 cardss'>
                                 <div>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
