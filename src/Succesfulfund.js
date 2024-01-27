@@ -1,6 +1,7 @@
 import successimage from '../src/assets/logo192.png'
+import React from 'react'
 
-import React, { useRef, useState } from 'react';
+// import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,25 +19,28 @@ export default function Succesfulfund() {
             <div><h1 style={{ textAlign: 'center' }}>Succesfully Funded</h1></div>
             <div className='row'>
                 <div className='col-md-4 alignment2'>
-                    <div><img src={successimage} alt="Success Image" /></div>
+                <div><img src={successimage} alt="Success" /></div>
+
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
-                    <a>4.5crore</a>
+                    <label>4.5crore</label>
                 </div>
                 <div className='col-md-4 alignment2'>
-                    <div><img src={successimage} alt="Success Image" /></div>
+                <div><img src={successimage} alt="Success" /></div>
+
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
-                    <a>4.5crore</a>
+                    <label>4.5crore</label>
                 </div>
                 <div className='col-md-4 alignment2'>
-                    <div><img src={successimage} alt="Success Image" /></div>
+                <div><img src={successimage} alt="Success" /></div>
+
                     <h5>RIO global V</h5>
                     <h5>nearby to green airport</h5>
                     <hr></hr>
-                    <a>4.5crore</a>
+                    <label>4.5crore</label>
                 </div>
             </div>
             <div className='successsection' style={{ background: 'black' }}>
@@ -87,7 +91,7 @@ export default function Succesfulfund() {
                             </div>
                             <div className='row'>
                                 <div className='col-md-6'>
-                                    <img />
+                                    <img alt=''/>
                                 </div>
                                 <div className='col-md-6'>
                                     <h3>Mahesh</h3>
@@ -103,7 +107,7 @@ export default function Succesfulfund() {
                             </div>
                             <div className='row'>
                                 <div className='col-md-6'>
-                                    <img />
+                                    <img alt=''/>
                                 </div>
                                 <div className='col-md-6'>
                                     <h3>Mahesh</h3>
@@ -119,7 +123,7 @@ export default function Succesfulfund() {
                                 </div>
                                 <div className='row'>
                                     <div className='col-md-6'>
-                                        <img />
+                                        <img alt=''/>
                                     </div>
                                     <div className='col-md-6'>
                                         <h3>Mahesh</h3>
@@ -135,7 +139,7 @@ export default function Succesfulfund() {
                                 </div>
                                 <div className='row'>
                                     <div className='col-md-6'>
-                                        <img />
+                                        <img alt='' />
                                     </div>
                                     <div className='col-md-6'>
                                         <h3>Mahesh</h3>
@@ -151,7 +155,7 @@ export default function Succesfulfund() {
                                 </div>
                                 <div className='row'>
                                     <div className='col-md-6'>
-                                        <img />
+                                        <img alt=''/>
                                     </div>
                                     <div className='col-md-6'>
                                         <h3>Mahesh</h3>
@@ -167,7 +171,7 @@ export default function Succesfulfund() {
                                 </div>
                                 <div className='row'>
                                     <div className='col-md-6'>
-                                        <img />
+                                        <img alt=''/>
                                     </div>
                                     <div className='col-md-6'>
                                         <h3>Mahesh</h3>

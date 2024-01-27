@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+export default function Thirdsection() {
     return (
         <div style={{background:'#000',height:'500px'}}>
             <div className='alignment2'>

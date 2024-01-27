@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function
-    () {
+export default function Firstsection() {
     return (
         <>
             <div className='row' style={{ height: '400px', background: '#000' }}>

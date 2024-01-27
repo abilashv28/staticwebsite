@@ -1,7 +1,7 @@
 import React from 'react'
 import successimage from '../src/assets/logo192.png'
 
-export default function () {
+export default function Founders() {
     return (
         <div>
             <div>
@@ -16,17 +16,17 @@ export default function () {
             </div>
             <div className='row'>
                 <div className='col-md-4 alignment2'>
-                    <div><img src={successimage} alt="Success Image" /></div>
+                    <div><img src={successimage} alt="Success" /></div>
                     <h4>VENKATESAN</h4>
                     <h4>coo</h4>
                 </div>
                 <div className='col-md-4 alignment2'>
-                    <img src={successimage} alt="Success Image" />
+                    <img src={successimage} alt="Success" />
                     <h4>VENKATESAN</h4>
                     <h4>coo</h4>
                 </div>
                 <div className='col-md-4 alignment2'>
-                    <img src={successimage} alt="Success Image" />
+                    <img src={successimage} alt="Success" />
                     <h4>VENKATESAN</h4>
                     <h4>coo</h4>
                 </div>

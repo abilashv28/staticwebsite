@@ -13,7 +13,7 @@ export default function Investor() {
         <div className='row'>
             <div className='col-md-6'>
                 <div className='investor-card alignment10'>
-                <div><img src={successimage} alt="Success Image" /></div>
+                <div><img src={successimage} alt="Success" /></div>
                     <label>At Rioflin</label>
                     <h3>Our Selection Process At Rioflin Looks Like...</h3>
                     <button className='btn-button'>Read More</button>
@@ -22,7 +22,7 @@ export default function Investor() {
             <div className='col-md-6'>
             <div className='investor-card'>
                 <div className='alignment9'>
-                <div><img src={successimage} alt="Success Image" /></div>
+                <div><img src={successimage} alt="Success" /></div>
                     <div><label>At Rioflin</label>
                     <h3>Our Selection Process At Rioflin Looks Like...</h3>
                     <button className='btn-button'>Read More</button></div>
@@ -30,7 +30,7 @@ export default function Investor() {
                 </div>
                 <div className='investor-card' style={{marginTop: "10%"}}>
                 <div className='alignment9'>
-                <div><img src={successimage} alt="Success Image" /></div>
+                <div><img src={successimage} alt="Success" /></div>
                     <div><label>At Rioflin</label>
                     <h3>Our Selection Process At Rioflin Looks Like...</h3>
                     <button className='btn-button'>Read More</button></div>
