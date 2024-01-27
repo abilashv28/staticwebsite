@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Thirdsection() {
     return (
-        <div style={{background:'#000',height:'500px'}}>
+        <div style={{background:'#000',height:'600px'}}>
             <div className='alignment2'>
                 <h2 style={{color:'white'}}>Why To Invest Beyond Traditional Assets</h2>
                 <label style={{ marginBottom: '40px',color:'white' }}>Check out the Pros & Cons</label>
@@ -10,7 +10,7 @@ export default function Thirdsection() {
 
             <div className='row'>
                 <div className='col-md-2'></div>
-                <div className='col-md-8' style={{ background: 'white',borderRadius: '10px',boxShadow: '10px 10px #3D5FFE'}}>
+                <div className='col-md-8' style={{ background: 'white',borderRadius: '10px',boxShadow: '10px 10px #3D5FFE', height: '400px'}}>
                     <div className='row' style={{padding:'25px 20px'}}>
                         <div className='col-md-3'></div>
                         <div className='col-md-6 alignment' >

@@ -12,7 +12,7 @@ export default function Investor() {
         </div>
         <div className='row'>
             <div className='col-md-6'>
-                <div className='investor-card alignment10'>
+                <div className='investor-card alignment10' style={{height:'450px'}}>
                 <div><img src={successimage} alt="Success" /></div>
                     <label>At Rioflin</label>
                     <h3>Our Selection Process At Rioflin Looks Like...</h3>
@@ -41,7 +41,7 @@ export default function Investor() {
 
         </div>
         </div>
-        <div className='row alignment6' style={{background:'black',height: '400px'}}>
+        <div className='row alignment6' style={{background:'black',height: '500px'}}>
             <div className='col-md-2'></div>
             <div className='col-md-8'>
                 <div className='alignment2 portfolio'>

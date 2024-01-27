@@ -68,7 +68,7 @@
 }
 
 .cards {
-  height: 250px;
+  height: 350px;
   background: white;
   margin-left: 80px;
   box-shadow: 10px 10px;
@@ -82,6 +82,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
 .cardss {
   width: 100%;
   height: 350px;
@@ -98,8 +99,9 @@
   align-items: center;
   flex-wrap: wrap;
   background: linear-gradient(to bottom, #2169FB, #183BE1);
-  
+
 }
+
 .alignment {
   display: flex;
   flex-wrap: nowrap;
@@ -121,6 +123,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .alignment3 {
@@ -164,6 +167,8 @@
   box-shadow: 10px 10px white;
   padding: 40px;
   border-radius: 20px;
+  color: white;
+  height: 250px;
 }
 
 .alignment6 {
@@ -223,6 +228,8 @@
 
 .mapsection {
   background: linear-gradient(to bottom, #4b257c, #3d5ffd, #4b257c);
+  padding: 100px 70px;
+  height: 600px;
 }
 
 .alignment11 {
@@ -240,6 +247,7 @@
 
 .investor {
   background: linear-gradient(to bottom, #2169FB, #183BE1);
+  height: 700px;
 }
 
 .fourthsection p {
@@ -269,16 +277,43 @@
   border: none;
 }
 
-hr{
+hr {
   background: #00FF01;
   height: 2px;
 }
-.carousel{
+
+.carousel {
   color: white;
 }
-.design{
+
+.design {
   box-shadow: 10px 10px #206DFB;
 }
-.successsection{
+
+.successsection {
+  background: black;
+  height: 700px;
+  padding: 30px;
   color: white;
+}
+
+.bond-font {
+  font-size: 10rem;
+  font-weight: 500;
+  background: linear-gradient(to bottom, #4b257c, #3d5ffd, #4b257c);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+.invest-font {
+  font-size: 5rem;
+}
+
+.alignmentexp {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Mapsection() {
   return (
-    <div style={{padding: '0px 70px'}} className='mapsection'>
+    <div  className='mapsection'>
         <div className='row'>
             <div className='col-md-6'>
                 <h4 style={{color: '#00FF01'}}>Hi,</h4>

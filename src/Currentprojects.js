@@ -16,8 +16,7 @@ import { Pagination } from 'swiper/modules';
 
 export default function Currentprojects() {
     return (
-        <div>
-
+        <div style={{height: '600px',padding:'60px 0px'}}>
             <div className='row'>
                 <div className='col-md-4' style={{ padding: '0px 60px' }}>
                     <h1>Our Current Projects</h1>
@@ -45,7 +44,7 @@ export default function Currentprojects() {
                     >
                         <SwiperSlide><div className='row design'>
                             <div className='col-md-4'></div>
-                            <div className='col-md-8' style={{background:'black'}}>
+                            <div className='col-md-8' style={{ background: 'black' }}>
                                 <label>Real estate</label>
                                 <h3>CRE-||</h3>
                                 <h4>Mappedu</h4>
@@ -56,7 +55,7 @@ export default function Currentprojects() {
                         </div></SwiperSlide>
                         <SwiperSlide><div className='row design'>
                             <div className='col-md-4'></div>
-                            <div className='col-md-8' style={{background:'black'}}>
+                            <div className='col-md-8' style={{ background: 'black' }}>
                                 <label>Real estate</label>
                                 <h3>CRE-||</h3>
                                 <h4>Mappedu</h4>
@@ -67,16 +66,16 @@ export default function Currentprojects() {
                         </div></SwiperSlide>
                         <SwiperSlide>
                             <div className='row design'>
-                            <div className='col-md-4'></div>
-                            <div className='col-md-8' style={{background:'black'}}>
-                                <label>Real estate</label>
-                                <h3>CRE-||</h3>
-                                <h4>Mappedu</h4>
-                                <p>An extensive network of investors spread throughout the country, encompassing diverse regions and markets</p>
-                                <div><button className='investnow'>INVEST NOW</button></div>
-                                <div><button className='talktous'>TALK TO US</button></div>
-                            </div>
-                        </div></SwiperSlide>
+                                <div className='col-md-4'></div>
+                                <div className='col-md-8' style={{ background: 'black' }}>
+                                    <label>Real estate</label>
+                                    <h3>CRE-||</h3>
+                                    <h4>Mappedu</h4>
+                                    <p>An extensive network of investors spread throughout the country, encompassing diverse regions and markets</p>
+                                    <div><button className='investnow'>INVEST NOW</button></div>
+                                    <div><button className='talktous'>TALK TO US</button></div>
+                                </div>
+                            </div></SwiperSlide>
                     </Swiper>
                 </div>
 

@@ -3,7 +3,7 @@ import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 export default function Secondsection() {
     return (
-        <div className='investor' style={{  height: '400px' }}>
+        <div className='investor' style={{  height: '600px' }}>
             <div className='alignment2'>
                 <h1 style={{ color: 'white' }}>What Is RIOFIN ASSESTS ?</h1>
                 <div className='row'>
